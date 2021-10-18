@@ -296,7 +296,7 @@ module Contracts =
 
   // alle Zahlungen bis heute (today) + Residualvertrag
   let calcPayments (contract: Contract) (today: Date): list<Payment> * Contract =
-
+    failwith "Not implemented"
 
   (*
   // Fehlversuch:
@@ -307,7 +307,3 @@ module Contracts =
   | Everest
   | K2
   *)
-
-module Say =
-    let hello name =
-        printfn "Hello %s" name
